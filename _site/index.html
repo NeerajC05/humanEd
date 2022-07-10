@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Meta Characteristic -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Humanoid Robots, HumanEd, Society, Robotics, University of Edinburgh, UOE, UofE, Tech, STEM">
+    <meta name="description" content="The Humanoid Robotics Society is an interdisciplinary group of students focused on the long-term research, development and implementation of new technologies in the field of limbs, exoskeletons, humanoid robots and bipedal movement.">
+    <meta name="author" content="HumanEd">
+
+    <!-- Config CSS -->
+    <link href="site_assets/css/style.css" rel="stylesheet">
+
+    <!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Evo Calender-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.midnight-blue.min.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+
+    <link rel="icon" type="image/gif/png" href="site_assets/images/main-logos/humaned.png">
+    <title>HumanEd - Home</title>
+
+  </head>
+
+  <body>
+
+  	<nav class="navbar py-1 navbar-expand-md navbar-dark sticky-top" style="background-color: #000000;">
+	<div class="container-fluid">
+		<a class="navbar-brand zoom" href="/humanEd/">
+			<img src="site_assets/images/main-logos/humaned.png" alt="" width="70" height="auto">
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+					<li class="nav-item center"> <a class="nav-link" id="transition" href="/humanEd/events">events</a> </li>
+			      	<li class="nav-item center"> <a class="nav-link" id="transition" href="/humanEd/join-us">join us</a> </li>
+			        <li class="nav-item center"> <a class="nav-link" id="transition" href="#contact-us">contact us</a> </li>
+			    </ul>
+		</div>
+	</div>
+</nav>
+    
+  	<main>  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <!-- Add the evo-calendar.js for.. obviously, functionality! -->
+    <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function() {
+          $('#calendar').evoCalendar({
+          'theme': 'Midnight Blue',
+          'todayHighlight': true,
+          calendarEvents: [ {
+    name: "Weekly Meeting",
+    description: "6-8pm BST - Room 11 (Lower Ground), 40 George Square, Edinburgh, EH8 9JX. Please use the Automatic doors at the side entrance on 40 George Square.",
+    date: ["September/22/2022"],        
+    type: "event",
+    color: "#1e90ff"
+} ]
+          })
+      })
+    </script>
+
+    <div id="contact-us">
+	<footer class="footer">
+	    <div class="container-fluid py-4">
+
+			<a class=" footer-img zoom" style="text-decoration: none;" href="https://www.ed.ac.uk/">
+				<img src="site_assets/images/main-logos/humaned.png" alt="" width="80" height="auto">
+			</a>
+
+	    	<a class=" footer-img zoom" href="https://www.ed.ac.uk/">
+				<img class="edi-logo" src="site_assets/images/main-logos/uoe.png" alt="" width="80" height="auto">
+			</a>
+
+	    	<h5 style="padding-top: 10px;">HumanEd - Humanoid Robotics Society</h5>
+	    	
+	    	<p>The Humanoid Robotics Society is an interdisciplinary group of students focused<br>
+	    	on the long-term research, development and implementation of new technologies in the<br>
+	    	field of limbs, exoskeletons, humanoid robots and bipedal movement.</p>
+
+	    	<p>SVG Background provided by <span class="attr"><a target="_blank" href="https://heropatterns.com/" style="text-decoration: none;">Hero Patterns</a></span></p>
+	    	
+			<a href="https://www.eusa.ed.ac.uk/activities/view/humaned" class="	fa fa-graduation-cap fa-2x" target="_blank"></a>
+			<a href="https://www.instagram.com/humanedinburgh/" class="fa fa-instagram fa-2x" target="_blank"></a>
+			<a href="https://www.facebook.com/UoEHumanEd" class="fa fa-facebook fa-2x" target="_blank"></a>
+			<a href="https://www.linkedin.com/company/humaned/" class="fa fa-linkedin fa-2x" target="_blank"></a>
+			<a href="https://github.com/HumanED" class="fa fa-github fa-2x" target="_blank"></a>
+			<a href="mailto: uoe.humaned@gmail.com" class="fa fa-envelope fa-2x" target="_blank"></a>
+		
+		</div>
+	</footer>
+</div>
+
+  </body>
+</html>
