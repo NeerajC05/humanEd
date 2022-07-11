@@ -98,6 +98,8 @@ body {
 	background-color: #000000;
 }
 
+.footer a:hover{ color: white;text-decoration: none; }
+
 .edi-logo {
 	padding: 5px;
 	background: white;
